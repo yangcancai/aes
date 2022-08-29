@@ -1,5 +1,5 @@
 add_rules("mode.debug", "mode.release")
-add_requires("conan::openssl/1.1.1g", {alias = "openssl"})
+add_requires("openssl", {alias = "openssl"})
 target("aes")
     set_languages("c99")
     set_kind("shared")
